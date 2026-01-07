@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+
+# Large data
+Datasets/**/*.wav
+Datasets/**/*.mp3
+Datasets/**/*.flac
+
+# Model outputs
+*.pt
+*.pth
+*.ckpt
+
+# NumPy
+*.npy
+
+# OS
+.DS_Store
+Thumbs.db
